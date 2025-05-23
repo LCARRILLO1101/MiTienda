@@ -63,7 +63,7 @@ function App() {
 
   return (
     <>
-      <ProductsList/>
+      <ProductsList products={products}/>
     </>
   )
 }
