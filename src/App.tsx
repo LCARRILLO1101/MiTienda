@@ -3,22 +3,8 @@ import './App.css'
 import axios from 'axios'
 import ProductsList from './components/ProductsList';
 import { MdErrorOutline } from "react-icons/md";
+import type Product from './helpers/interfaces';
 
-export interface Rating{
-  rate:number;
-  count:number;
-}
-
-export interface Product{
-  id:number;
-  image:string;
-  title:string;
-  category:string;
-  description:string;
-  price:number;
-  rating:Rating;
-
-}
 
 
 function App() {

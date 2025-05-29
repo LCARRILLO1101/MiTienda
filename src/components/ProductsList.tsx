@@ -1,4 +1,4 @@
-import type { Product } from "../App"
+import type Product  from "../helpers/interfaces"
 import ProductsCard from "./ProductsCard"
 
 const ProductsList = ({products}:any) => {
