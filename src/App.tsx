@@ -1,9 +1,10 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef, useMemo, useReducer } from 'react'
 import './App.css'
 import axios from 'axios'
 import ProductsList from './components/ProductsList';
 import { MdErrorOutline } from "react-icons/md";
 import type Product from './helpers/interfaces';
+import type { FetchState } from './helpers/interfaces';
 
 
 

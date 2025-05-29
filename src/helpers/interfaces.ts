@@ -13,3 +13,9 @@ export default interface Product{
   rating:Rating;
 
 }
+
+export interface FetchState{
+  data:Product[];
+  loading:boolean;
+  error:string|null;
+}
